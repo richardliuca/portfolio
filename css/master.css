@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  font-family: 'PT Serif', serif;
+  background-color:#606060;
+}
+
+.jumbotron {
+  background-image: url('../img/frontpage_cover.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  background-color:#5e5e5e;
+}
+
+.nav-masthead {
+  position: fixed;
+  width: 100%;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+  color: #fff !important;
+}
+
+.nav-masthead .nav-scroll {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  margin-left: 1rem;
+}
+
+.nav-masthead .nav-scroll:hover,
+.nav-masthead .nav-scroll:focus {
+  color: #fff !important;
+  border-bottom-color: #fff !important;
+  text-decoration: none;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.masthead0brand, #center-banner {
+  color: #fff;
+}
